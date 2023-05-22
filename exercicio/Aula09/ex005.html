@@ -19,10 +19,25 @@
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o rersultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-    <div>Clique aqui</div>
+    <div id="msg">Clique aqui</div>
 
     <script>
-        var p1 = window.document.getElementsByTagName('p')[0]
+
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write('Está escrito assim: ' + p1.innerText)
+        //var d = window.document.getElementById('msg')
+        //d.style.backgroundColor = 'green'
+        //d.innerText = 'Estou Aguardando...'
+
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'blue'
+
+
+       
+        
+        
+
     </script>
     
 </body>

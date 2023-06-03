@@ -1,5 +1,5 @@
 var msg;        // Message
-var level = 2;  // Level
+var level = 1;  // Level
 
 // Determine message based on level
 switch (level) {
